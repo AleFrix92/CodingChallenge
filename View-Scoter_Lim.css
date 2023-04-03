@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+    size: 1000px;
+}
+body{background-image: url("sfondo.jpg");
+    background-size: cover
+}
+.riquadro{
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    padding-bottom: 5%;
+    width: 70%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+header img{
+    padding-top: 10%;
+    width: 25%
+}
+header{
+    text-align: center
+}
+/* Intestazione */
+h2{
+    color: rgb(0, 221, 0);
+    font-family: 'Montserrat', sans-serif;
+}
+nav{background-color: rgb(0, 221, 0);
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 10px;
+}
+main{
+    margin-left: 10%;
+}
+/* Nome Monopattino */
+main h3{
+    color: white;
+font-family: 'Montserrat', sans-serif;
+}
+/* Indirizzo e carica */
+main div{
+    color: white;
+font-family: 'Montserrat', sans-serif;
+padding-bottom: 5px;
+}
+/* Livelli carica */
+.box_carica1{
+    background-color: orange;
+    width: 30%;
+    height: 25px;
+    border-radius: 5px;
+    padding : 3px;
+    margin-bottom: 40px;
+}
+.box_carica1:hover  ,.box_carica2:hover, .box_carica3:hover{
+        opacity: 0.5;
+}
+.Carica1, .Carica2, .Carica3{
+    opacity:0;
+}
+.Carica1:hover, .Carica2:hover,.Carica3:hover{
+        opacity: 1
+}
+.box_carica2{
+    background-color: rgb(0, 255, 89);
+    width: 45%;
+    height: 25px;
+    border-radius: 5px;
+    padding : 3px;
+    margin-bottom: 40px;
+}
+.box_carica3{
+    background-color: rgb(30, 0, 255);
+    width: 88%;
+    height: 25px;
+    border-radius: 5px;
+    padding : 3px;
+    margin-bottom: 40px;
+}
